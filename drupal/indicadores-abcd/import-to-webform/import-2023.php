@@ -54,6 +54,8 @@ if ($csvArchive !== FALSE) {
       $superior_cursos,
       $tecnico_cursos,
       $basico_cursos,
+      $_upload_nome,
+      $_upload_tamanho_kb,   
       $livros_compra_seg_versao,
       $livros_doacao_seg_versao,
       $periodicos_compra_seg_versao,

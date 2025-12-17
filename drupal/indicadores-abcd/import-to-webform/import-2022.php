@@ -64,6 +64,8 @@ if ($csvArchive !== FALSE) {
         $superior_tic,
         $tecnico_tic,
         $basico_tic,
+        $_upload_nome,
+        $_upload_tamanho_kb,   
         $livros_nacional_compra,
         $livros_internacional_compra,
         $livros_nacional_permuta,

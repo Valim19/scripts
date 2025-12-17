@@ -25,7 +25,7 @@ if ($csvArchive !== FALSE) {
     fgetcsv($csvArchive, 1000, ",");
     fgetcsv($csvArchive, 1000, ",");
 
-    while (($data = fgetcsv($csvArchive, 1000, ",")) !== FALSE) {
+    while (($data = fgetcsv($csvArchive, 0, ",")) !== FALSE) {
 
         list(
             $usuario,
@@ -63,7 +63,9 @@ if ($csvArchive !== FALSE) {
             $basico_capacitacao_servicos,
             $superior_tic,
             $tecnico_tic,
-            $basico_tic,              
+            $basico_tic,
+            $_upload_nome,
+            $_upload_tamanho_kb,      
             $livros_nacional_compra,
             $livros_internacional_compra,
             $livros_nacional_permuta,
